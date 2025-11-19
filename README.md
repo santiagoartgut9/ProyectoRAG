@@ -1,3 +1,15 @@
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![LangChain](https://img.shields.io/badge/LangChain-0.2.x-orange)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow)
+![Sentence Transformers](https://img.shields.io/badge/Embeddings-multilingual--e5--large-green)
+![Pinecone](https://img.shields.io/badge/Vector%20DB-Pinecone-blueviolet)
+![Pinecone Serverless](https://img.shields.io/badge/Pinecone-Serverless-important)
+![RAG](https://img.shields.io/badge/Architecture-RAG-red)
+![T5](https://img.shields.io/badge/Generator-FLAN--T5--Base-lightgrey)
+
+
+
 ## Proyecto RAG — LangChain + Pinecone
 Implementación de un sistema RAG (Retrieval-Augmented Generation) que usa embeddings de Hugging Face, Pinecone como vector DB y un modelo HuggingFace para generación. Incluye: indexación, chunking, upsert en Pinecone, recuperación, cadena RAG, un agente simple tipo tool-based y evaluación por scores.
 
