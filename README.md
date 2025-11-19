@@ -156,3 +156,50 @@ $env:PINECONE_HOST = "https://proyecto-xxxx.svc.aped-4627-b74a.pinecone.io"
 $env:PINECONE_INDEX = "proyecto"
 $env:HUGGINGFACEHUB_API_TOKEN = "hf_..."
 ```
+## 📝Evidencias:
+
+
+<img width="858" height="379" alt="image" src="https://github.com/user-attachments/assets/bcbf8fd4-4168-4c39-abef-616fda4ab461" />
+
+<img width="1350" height="600" alt="image" src="https://github.com/user-attachments/assets/b7f2967b-92c6-4f3f-9764-338d764cfd8c" />
+
+<img width="967" height="311" alt="image" src="https://github.com/user-attachments/assets/ac08ef1a-a48e-48b6-8591-4f3e38ff6321" />
+
+<img width="827" height="257" alt="image" src="https://github.com/user-attachments/assets/5f2411cd-0ac9-497d-a17f-823cd7a10247" />
+
+<img width="821" height="299" alt="image" src="https://github.com/user-attachments/assets/cb260f14-745c-4fff-974a-e8f3b6af0b84" />
+
+<img width="652" height="383" alt="image" src="https://github.com/user-attachments/assets/1051a871-b15a-4ef8-80ec-fdec5c6a5eab" />
+
+<img width="414" height="283" alt="image" src="https://github.com/user-attachments/assets/43fbbc05-197b-4643-b706-2be2cff79047" />
+
+<img width="465" height="93" alt="image" src="https://github.com/user-attachments/assets/a028c64d-ffb8-411a-8ae6-179ebf031d9e" />
+
+<img width="430" height="182" alt="image" src="https://github.com/user-attachments/assets/b4c0be20-3eb9-4b64-9773-cc5c88d98ab9" />
+
+<img width="978" height="171" alt="image" src="https://github.com/user-attachments/assets/c5b72cc3-d6df-417e-8104-1a68118c1eca" />
+
+<img width="494" height="120" alt="image" src="https://github.com/user-attachments/assets/fd68e53b-3d7a-4547-8660-cf7ec50ad344" />
+
+<img width="953" height="209" alt="image" src="https://github.com/user-attachments/assets/cca13ca0-cf20-4b96-95c1-e64565fc41f1" />
+
+<img width="975" height="293" alt="image" src="https://github.com/user-attachments/assets/c668be18-cf2f-4b67-9ca9-cf074e5feabd" />
+
+<img width="933" height="323" alt="image" src="https://github.com/user-attachments/assets/c72b37b4-cf33-40e3-a48e-c3326034565e" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
