@@ -1,12 +1,11 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![LangChain](https://img.shields.io/badge/LangChain-0.2.x-orange)
+![LangChain](https://img.shields.io/badge/LangChain-RAG-orange)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow)
-![Sentence Transformers](https://img.shields.io/badge/Embeddings-multilingual--e5--large-green)
+![Embeddings](https://img.shields.io/badge/Embeddings-multilingual--e5--large-green)
 ![Pinecone](https://img.shields.io/badge/Vector%20DB-Pinecone-blueviolet)
-![Pinecone Serverless](https://img.shields.io/badge/Pinecone-Serverless-important)
-![RAG](https://img.shields.io/badge/Architecture-RAG-red)
-![T5](https://img.shields.io/badge/Generator-FLAN--T5--Base-lightgrey)
+![FLAN T5](https://img.shields.io/badge/LLM-FLAN--T5--Base-lightgrey)
+![Torch](https://img.shields.io/badge/Backend-Torch-orange)
 
 
 
