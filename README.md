@@ -99,4 +99,49 @@ PINECONE_API_KEY=pcsk_xxx
 PINECONE_HOST=https://proyecto-xxxx.svc.aped-4627-b74a.pinecone.io
 PINECONE_INDEX=proyecto
 HUGGINGFACEHUB_API_TOKEN=hf_xxx
+```
 
+## 🛠️ Instalación (paso a paso)
+
+### 1) Crear entorno virtual
+
+#### 🪟 Windows (PowerShell)
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+🐧 Linux / 🍎 macOS
+```
+python -m venv .venv
+source .venv/bin/activate
+
+```
+## Instalar dependencias
+
+Guarda las dependencias en requirements.txt y luego instala:
+```
+pip install -r requirements.txt
+```
+
+📌 requirements.txt
+```
+langchain>=0.2.10
+langchain-pinecone
+pinecone-client>=0.6.0
+langchain-huggingface
+langchain-text-splitters
+langchain-core
+transformers>=4.30.0
+sentence-transformers
+torch
+huggingface-hub
+bs4
+
+```
+## Exportar variables de entorno
+```
+$env:PINECONE_API_KEY = "pcsk_..."
+$env:PINECONE_HOST = "https://proyecto-xxxx.svc.aped-4627-b74a.pinecone.io"
+$env:PINECONE_INDEX = "proyecto"
+$env:HUGGINGFACEHUB_API_TOKEN = "hf_..."
+```
