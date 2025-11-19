@@ -1,0 +1,74 @@
+### ¿Qué es LangChain?
+LangChain es un framework que facilita la creación de aplicaciones basadas en inteligencia artificial que usan modelos de lenguaje. Permite manejar prompts, dividir documentos, usar memoria, conectar APIs y trabajar con bases de datos vectoriales. Se utiliza para construir chatbots, asistentes inteligentes y sistemas RAG.
+
+### ¿Para qué sirve LangChain?
+LangChain sirve para conectar un modelo de lenguaje con información externa. Esto incluye bases de datos vectoriales como Pinecone, archivos locales, APIs y documentos largos divididos en chunks. También permite crear flujos complejos con agentes y cadenas.
+
+### ¿Qué es Pinecone?
+Pinecone es una base de datos vectorial serverless que almacena y busca embeddings de manera rápida. Es escalable, fácil de usar y está diseñada para aplicaciones como RAG, búsqueda semántica y sistemas de recomendación.
+
+### ¿Cómo funciona Pinecone?
+1. Los textos se convierten en embeddings (vectores).
+2. Pinecone guarda estos vectores en un índice.
+3. Cuando el usuario hace una pregunta:
+   - La pregunta se convierte en embedding.
+   - Pinecone compara los vectores usando cosine similarity.
+   - Devuelve los chunks más similares al significado de la pregunta.
+
+### ¿Qué es un embedding?
+Un embedding es un vector numérico que representa el significado de un texto. Permite comparar similitud entre textos.
+
+### ¿Para qué sirven los embeddings?
+- Búsqueda semántica
+- Sistemas RAG
+- Clasificación
+- Comparación de similitud
+- Agrupamiento de textos (clustering)
+
+### ¿Qué es RAG?
+RAG (Retrieval Augmented Generation) es una técnica donde el modelo genera respuestas usando información obtenida desde documentos externos.
+
+Proceso:
+1. El usuario hace una pregunta.
+2. El sistema busca información relevante en una base vectorial.
+3. El modelo genera la respuesta usando esos datos recuperados.
+
+### Ventajas de RAG
+- Reduce alucinaciones.
+- Respuestas basadas en tus propios documentos.
+- No necesita entrenamiento adicional.
+- Es escalable y fácil de implementar.
+
+### ¿Qué modelos usa este proyecto?
+1. intfloat/multilingual-e5-large: modelo de embeddings multilingüe de 1024 dimensiones.
+2. google/flan-t5-small: modelo de generación pequeño y rápido.
+
+### ¿Qué es chunking?
+Chunking es dividir textos largos en fragmentos pequeños para facilitar la indexación y la recuperación. Normalmente se usan chunks de 500–1000 caracteres con un solapamiento pequeño.
+
+### ¿Cómo funciona este sistema RAG?
+1. Se cargan los textos desde p.txt u otros documentos.
+2. Se dividen en chunks.
+3. Cada chunk se convierte en embedding.
+4. Se almacenan en Pinecone.
+5. Al hacer una pregunta:
+   - La pregunta se convierte en embedding.
+   - Pinecone devuelve los chunks más similares.
+   - El modelo genera una respuesta usando esos chunks como contexto.
+
+### ¿Qué es un índice en Pinecone?
+Es el lugar donde se almacenan los vectores. Define la dimensión, la métrica (cosine), la región y el modo serverless.
+
+### ¿Por qué usar cosine similarity?
+Cosine mide la dirección de los vectores, capturando mejor el significado semántico de los textos.
+
+### ¿Qué preguntas puedo hacer al sistema?
+Cualquier pregunta basada exclusivamente en este p.txt, como:
+- ¿Qué es LangChain?
+- ¿Qué es Pinecone?
+- ¿Qué es RAG?
+- ¿Qué modelos usa este proyecto?
+- ¿Qué es chunking?
+
+### Nota final
+El sistema RAG solo puede responder usando la información contenida en este archivo p.txt. Si algo no está aquí, la respuesta no será correcta.

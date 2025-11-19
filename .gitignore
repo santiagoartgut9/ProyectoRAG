@@ -1,0 +1,88 @@
+# ====================================
+#  ENTORNO PYTHON
+# ====================================
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pdb
+*.egg-info/
+.eggs/
+*.spec
+
+# ====================================
+#  ENTORNOS VIRTUALES
+# ====================================
+.venv/
+venv/
+env/
+ENV/
+
+# ====================================
+#  ARCHIVOS SENSIBLES / CLAVES
+# ====================================
+.env
+.env.*
+*.key
+*.pem
+*.token
+
+# ====================================
+#  ARCHIVOS TEMPORALES / LOGS
+# ====================================
+*.log
+*.tmp
+*.temp
+*.bak
+
+# ====================================
+#  EDITORES Y SISTEMAS OPERATIVOS
+# ====================================
+# VSCode
+.vscode/
+.history/
+
+# JetBrains / PyCharm
+.idea/
+
+# Windows / macOS
+Thumbs.db
+.DS_Store
+
+# ====================================
+#  HUGGINGFACE / MODELOS / CACHE
+# ====================================
+/cache/
+huggingface/
+~/.cache/
+~/.huggingface/
+
+# Modelos descargados grandes
+*.bin
+*.safetensors
+
+# Transformers cache
+transformers_cache/
+hf_cache/
+
+# ====================================
+#  PINECONE / TEMPORALES
+# ====================================
+# Cualquier archivo generado temporalmente
+*.index.tmp
+
+# ====================================
+#  ARCHIVOS DE COMPRESIÓN
+# ====================================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# ====================================
+#  ARCHIVOS NO NECESARIOS EN ENTREGA
+# ====================================
+evaluation.csv
+screenshots/
+captures/
+output/
